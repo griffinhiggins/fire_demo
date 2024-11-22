@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# python sys_.py --first griffin --last higgins
+# python sys_.py --first griffin --last higgins --upper
+# python sys_.py --last higgins --first griffin --upper
+# python sys_.py -u -l higgins --first griffin
+
+echo "argparse"
+python argparse_.py --first griffin --last higgins
+python argparse_.py --first griffin --last higgins --upper
+python argparse_.py --last higgins --first griffin --upper
+python argparse_.py -u -l higgins --first griffin
+
+echo
+
+echo "fire"
+python fire_.py --first griffin --last higgins
+python fire_.py --first griffin --last higgins --upper
+python fire_.py --last higgins --first griffin --upper
+python fire_.py -u -l higgins --first griffin

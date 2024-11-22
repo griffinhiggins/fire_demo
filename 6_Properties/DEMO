@@ -1,0 +1,13 @@
+#!/bin/bash
+
+python example.py --code=JFK code
+python example.py --code=SJC name
+python example.py --code=ALB city
+
+### Chaining Function Calls
+# When you run a Fire CLI, you can  take all the same actions on the _result_ of
+# the call to Fire that you can take on the original object passed in.
+
+python example.py --code=ALB city upper
+                                  # this is just a python string method!!!
+python example.py --code=ALB city swapcase replace 'A' '@' -1 title

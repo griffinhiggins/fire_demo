@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python example.py add 10 20
+python example.py multiply 10 20
+python alt_example.py mul 10 20

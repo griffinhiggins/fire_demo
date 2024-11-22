@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# ------------------------------------
+
+python beginner.py add 10 20
+python beginner.py multiply 10 20
+
+# ------------------------------------
+
+python intermediate.py add 10 20
+python intermediate.py multiply 10 20
+
+python intermediate.py add 10 20 --offset=0
+python intermediate.py multiply 10 20 --offset=0
+
+# ------------------------------------
+python advanced.py run
+python advanced.py ingestion run
+python advanced.py digestion run
+python advanced.py digestion status

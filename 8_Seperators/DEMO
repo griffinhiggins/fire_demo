@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python example.py griffin higgins upper 
+python example.py griffin higgins - upper

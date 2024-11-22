@@ -1,0 +1,9 @@
+#!/bin/bash
+
+python example.py 10
+python example.py 10.0
+python example.py hello
+python example.py '(1,2)'
+python example.py [1,2]
+python example.py True
+python example.py '{name:Griffin}'

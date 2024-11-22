@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python sys_.py griffin
+python argparse_.py griffin
+python fire_.py griffin

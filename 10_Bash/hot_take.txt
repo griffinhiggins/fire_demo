@@ -1,0 +1,6 @@
+Not going to give  an example, but rather just argue that while  it is true that
+you "could" theoretically do anything you want  in bash sometimes its not a good
+idea. Bash  is great for  quick and dirty  scripts, but if  you are going  to be
+doing anything complex  (beyond arrays is where I have  stared drawing the line)
+you  should probably  use python.  But  bash does  have  its place  in terms  of
+reliability so it is still absolutely worth learning and using.

@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo foo
+python example.py foo boo moo moo moo moo moo moo --bar baz
+
+echo
+
+echo bar
+python example.py bar --first_kwarg 1
+echo
+python example.py bar --second_kwarg 2
+echo
+python example.py bar --first_kwarg 1 --second_kwarg 2
+echo
+python example.py bar -f 1 -s 2
+echo
+python example.py bar 1 --second_kwarg 2
+echo
+python example.py bar 1 -s 2
+echo
+python example.py bar 1 2
+echo
+python example.py bar
